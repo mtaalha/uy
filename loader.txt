@@ -1,0 +1,202 @@
+
+section{
+    /* width: 960px; */
+    height: 400px;
+    margin:50px auto;
+    /* background: linear-gradient(rgb(225, 0, 255),rgba(0, 179, 255, 0.675)); */
+    box-sizing: border-box;
+    display: flex;
+    /* min-height: 100vh; */
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.loader .strock{
+    width: 8px;
+    height: 100%;
+    position: relative;
+    background: rgb(0, 164, 19);
+    margin:0 5px;
+    display: block;
+    border-radius: 15px;
+    animation: animate 1.2s linear infinite;
+}
+.loader .strock:nth-child(2){
+    background-color: red !important;
+}.loader .strock:nth-child(3){
+    background-color: rgb(0, 8, 255) !important;
+}
+.loader .strock:nth-child(4){
+    background-color: rgb(255, 0, 255) !important;
+}
+.loader .strock:nth-child(5){
+    background-color: rgb(0, 8, 255) !important;
+}
+.loader .strock:nth-child(6){
+    background-color: red !important;
+}
+.loader .strock:nth-child(7){
+    background-color: rgb(0, 164, 19) !important;
+}
+@keyframes animate{
+    50%{
+        height: 20%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+.strock:nth-child(1){
+    animation-delay: 0s;
+}
+.strock:nth-child(2){
+    animation-delay: 0.3s;
+}
+.strock:nth-child(3){
+    animation-delay: 0.6s;
+}
+.strock:nth-child(4){
+    animation-delay: 0.9s;
+}
+.strock:nth-child(5){
+    animation-delay: 0.6s;
+}
+.strock:nth-child(6){
+    animation-delay: 0.3s;
+}
+.strock:nth-child(7){
+    animation-delay: 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section>
+        <div class="loader">
+            <span class="strock"></span>
+            <span class="strock"></span>
+            <span class="strock"></span>
+            <span class="strock"></span>
+            <span class="strock"></span>
+            <span class="strock"></span>
+            <span class="strock"></span>
+        </div>
+    </section>
+
+    <section>
+        <div class="animate_ball">
+            <span class="ball"></span>
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bit */
+.bitwrapper{
+    width: 100px;
+    height: 200px;
+    display: flex;
+    /* background: #060c28; */
+    /* margin: auto; */
+    /* margin-top: -300px; */
+    /* margin-left: 130px; */
+    opacity: 0.7;
+    animation: animatebit 1.2s linear infinite;
+    z-index: 999;
+}
+/* @keyframes animatebit{
+    50%{
+        height: 10px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+.bitwrapper .aa{
+    height: 10px;
+    width:8px;
+    background: linear-gradient(#12c930,rgba(20, 173, 53, 0.874));
+    margin-left: 30px;
+    border-radius: 9px;
+    margin: auto;
+    transition: all linear 0.5s;
+    animation: animate 1.2s linear infinite;
+}
+@keyframes animate{
+    50%{
+        margin-top: 20px;
+    }
+}
+.bitwrapper .aa:nth-child(1){
+    animation-delay: 0s;
+}
+.bitwrapper .aa:nth-child(2){
+    animation-delay: 0.1s;
+}
+.bitwrapper .aa:nth-child(3){
+    animation-delay: 0.2s;
+}
+.bitwrapper .aa:nth-child(4){
+    animation-delay: 0.3s;
+}
+.bitwrapper .aa:nth-child(5){
+    animation-delay: 0.4s;
+}
+
+
